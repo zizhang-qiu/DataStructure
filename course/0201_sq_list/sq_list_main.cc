@@ -1,4 +1,3 @@
-#include <ios>
 #include <iostream>
 
 #include "sq_list.h"
