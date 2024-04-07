@@ -12,7 +12,7 @@ Status Compare(const ElemType& lhs, const ElemType& rhs) {
 }
 
 int main() {
-  SqList L;  // 待操作的顺序表
+  SqList L;
 
   int i;
   ElemType e;
