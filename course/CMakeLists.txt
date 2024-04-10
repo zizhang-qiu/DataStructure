@@ -1,1 +1,2 @@
 add_subdirectory(0201_sq_list)
+add_subdirectory(0204_link_list)

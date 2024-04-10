@@ -1,5 +1,10 @@
 #ifndef STATUS_STATUS_H
 #define STATUS_STATUS_H
+#include <cstdarg>
+#include <fstream>
+#include <iostream>
+#include <sstream>
+
 
 // Use constexpr instead of macro.
 inline constexpr int kTrue = 1;
@@ -11,6 +16,5 @@ inline constexpr int kOverflow = -2;
 
 // Use using instead of typedef.
 using Status = int;
-
 
 #endif /* STATUS_STATUS_H */
